@@ -1,5 +1,6 @@
 demo-project
 ============
+<p>This is a demo iOS project compatible with iOS >= 4.3.</p>
 
 <h2>Project Structure</h2>
 -----------------
