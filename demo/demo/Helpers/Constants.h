@@ -11,7 +11,7 @@
 
 #import "PortraitViewController.h"
 
-#define CustomColor [UIColor colorWithRed:101.0/255.0 green:184.0/255.0 blue:193.0/255.0 alpha:1.0]
+#define CustomColor [UIColor colorWithRed:0.0/255.0 green:0.0/255.0 blue:0.0/255.0 alpha:1.0]
 
 // Helpers
 #import "RKRequestData.h"
@@ -31,10 +31,16 @@
 #import "GAI.h"
 
 // Views
+#import "SectionFooterView.h"
+#import "SectionHeaderView.h"
+#import "MainView.h"
+#import "LeftView.h"
+#import "HeaderView.h"
 
 // Models
 
 // Cells
+#import "MenuCell.h"
 
 // Defaults
 #define USER_OBJECT @"USER_OBJECT"
@@ -50,6 +56,7 @@
 #define FONT_SIZE @"FONT_SIZE"
 #define DEFAULT_FONT_SIZE 14
 
+ // should be added in info http://www.daveallanson.com/index.php?option=com_content&view=article&id=56:adding-custom-fonts-ios-4&catid=38:blog&Itemid=56
 #define FONT_NAME_REGULAR @"TimesNewRomanPSMT"
 #define FONT_NAME_BOLD @"TimesNewRomanPS-BoldMT"
 

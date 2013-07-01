@@ -54,12 +54,12 @@
     self.headerView.delegate = self;
     self.leftView.delegate = self;
     self.mainView.delegate = self;
-    [self.headerView configureLeftButtonWithTitle:nil Image:@"menu-icon" BackgroundImage:nil];
+    [self.headerView configureHeaderWithTitle:NSLocalizedString(@"main", nil)];
+    [self.headerView configureLeftButtonWithTitle:NSLocalizedString(@"menu", nil) Image:@"menu-icon" BackgroundImage:nil];
     [self.headerView configureRightButtonWithTitle:nil Image:@"playlist" BackgroundImage:nil];
     requests = [[NSMutableArray alloc] initWithCapacity:0];
     
-    [self createProgressHUD];
-    
+    [self createProgressHUD];    
     [self createLeftViewMenuItems];
     
     closeMenu = YES;
@@ -69,7 +69,7 @@
 {
     NSDictionary *option1Dict = [NSDictionary dictionaryWithObjectsAndKeys:@"option1-title", @"title", @"option1-icon", @"icon", MENU_OPTION1, @"action", @"option1-bg", @"background", nil];
     NSDictionary *option2Dict = [NSDictionary dictionaryWithObjectsAndKeys:@"option2-title", @"title", @"option2-icon", @"icon", MENU_OPTION2, @"action", @"option2-bg", @"background", nil];
-    NSArray *menuItems = [NSArray arrayWithObjects:settingsDict, homeDict, nil];
+    NSArray *menuItems = [NSArray arrayWithObjects:option1Dict, option2Dict, nil];
     [self.leftView configureWithItems:menuItems];
 }
 
@@ -149,11 +149,12 @@
     if ([action isEqualToString:MENU_OPTION1])
     {
         // open option 1
+        DLog(@"open option 1");
     }
     else if ([action isEqualToString:MENU_OPTION2])
     {
         // open option 2
-        
+        DLog(@"open option 2");
     }
     // close menu
     if (closeMenu)
