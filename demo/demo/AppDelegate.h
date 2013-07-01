@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MainViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UINavigationController *navigationController;
+@property (strong, nonatomic) MainViewController *mainVC;
 
 - (void) displayAlertView:(NSString *)message WithTitle:(NSString *)title AndCancelTitle:(NSString *)cancelTitle OtherButtonTitle:(NSString *)otherTitle fromDelegate:(id)delegate;
 - (void) dismissAlertView;

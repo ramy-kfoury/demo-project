@@ -64,8 +64,8 @@
 
 #define SAMPLE_SCRIPT @"sample"
 
-#define MENU_SETTINGS @"MENU_SETTINGS"
-#define MENU_HOME @"MENU_HOME"
+#define MENU_OPTION1 @"MENU_OPTION1"
+#define MENU_OPTION2 @"MENU_OPTION2"
 
 // Notifications
 

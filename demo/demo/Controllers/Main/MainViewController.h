@@ -14,7 +14,5 @@
 @property (nonatomic, strong) IBOutlet UIView * centerView;
 @property (nonatomic, strong) IBOutlet MainView * mainView;
 @property (nonatomic, strong) IBOutlet LeftView * leftView;
-@property (nonatomic, strong) IBOutlet RightView * rightView;
-@property (nonatomic, strong) IBOutlet ListView * listView;
 
 @end

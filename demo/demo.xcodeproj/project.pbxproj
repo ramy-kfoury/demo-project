@@ -40,7 +40,6 @@
 		FE2A476A178178F500369F79 /* NSStringHex.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4724178178F400369F79 /* NSStringHex.m */; };
 		FE2A476B178178F500369F79 /* ODRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4727178178F400369F79 /* ODRefreshControl.m */; };
 		FE2A476C178178F500369F79 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A472A178178F500369F79 /* PortraitViewController.m */; };
-		FE2A476D178178F500369F79 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A472D178178F500369F79 /* Reachability.m */; };
 		FE2A476E178178F500369F79 /* RKRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4730178178F500369F79 /* RKRequestData.m */; };
 		FE2A476F178178F500369F79 /* RKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4733178178F500369F79 /* RKTextField.m */; };
 		FE2A4770178178F500369F79 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4737178178F500369F79 /* UIButton+WebCache.m */; };
@@ -71,6 +70,8 @@
 		FE2A47BB17817D7300369F79 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2A47AB17817D7300369F79 /* libsqlite3.0.dylib */; };
 		FE2A47BC17817D7300369F79 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2A47AC17817D7300369F79 /* libz.1.2.5.dylib */; };
 		FE2A47BD17817D7300369F79 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2A47AD17817D7300369F79 /* libxml2.2.dylib */; };
+		FE2A47C21781875300369F79 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A47C01781875300369F79 /* MainViewController.m */; };
+		FE2A47C31781875300369F79 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE2A47C11781875300369F79 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,8 +146,6 @@
 		FE2A4727178178F400369F79 /* ODRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODRefreshControl.m; sourceTree = "<group>"; };
 		FE2A4729178178F500369F79 /* PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
 		FE2A472A178178F500369F79 /* PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
-		FE2A472C178178F500369F79 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		FE2A472D178178F500369F79 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		FE2A472F178178F500369F79 /* RKRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKRequestData.h; sourceTree = "<group>"; };
 		FE2A4730178178F500369F79 /* RKRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKRequestData.m; sourceTree = "<group>"; };
 		FE2A4732178178F500369F79 /* RKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTextField.h; sourceTree = "<group>"; };
@@ -197,6 +196,9 @@
 		FE2A47AB17817D7300369F79 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		FE2A47AC17817D7300369F79 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		FE2A47AD17817D7300369F79 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		FE2A47BF1781875300369F79 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FE2A47C01781875300369F79 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FE2A47C11781875300369F79 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 		FE2A46E31781776000369F79 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FE2A47BE1781875300369F79 /* Main */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -324,20 +327,20 @@
 				FE2A4701178178F400369F79 /* DLog.h */,
 				FE2A4717178178F400369F79 /* Localizable.strings */,
 				FE2A46E8178178F400369F79 /* ASIHttpRequest */,
-				FE2A46FE178178F400369F79 /* CustomButton */,
 				FE2A4702178178F400369F79 /* Google Analytics */,
 				FE2A4709178178F400369F79 /* JSON */,
 				FE2A4718178178F400369F79 /* MBProgressHUD */,
-				FE2A471B178178F400369F79 /* Networking */,
 				FE2A471E178178F400369F79 /* NSString Addons */,
 				FE2A4725178178F400369F79 /* ODRefreshControl */,
-				FE2A4728178178F400369F79 /* Portrait */,
-				FE2A472B178178F500369F79 /* Reachability */,
-				FE2A472E178178F500369F79 /* RKRequestData */,
-				FE2A4731178178F500369F79 /* RKTextField */,
 				FE2A4734178178F500369F79 /* SDWebImage */,
 				FE2A4748178178F500369F79 /* SMXmlDocument */,
 				FE2A474E178178F500369F79 /* UIImage Addons */,
+				FE2A472E178178F500369F79 /* RKRequestData */,
+				FE2A4731178178F500369F79 /* RKTextField */,
+				FE2A46FE178178F400369F79 /* CustomButton */,
+				FE2A471B178178F400369F79 /* Networking */,
+				FE2A4728178178F400369F79 /* Portrait */,
+				FE2A4749178178F500369F79 /* RKPageControl */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -482,15 +485,6 @@
 			path = Portrait;
 			sourceTree = "<group>";
 		};
-		FE2A472B178178F500369F79 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				FE2A472C178178F500369F79 /* Reachability.h */,
-				FE2A472D178178F500369F79 /* Reachability.m */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
 		FE2A472E178178F500369F79 /* RKRequestData */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,7 +539,6 @@
 		FE2A4748178178F500369F79 /* SMXmlDocument */ = {
 			isa = PBXGroup;
 			children = (
-				FE2A4749178178F500369F79 /* RKPageControl */,
 				FE2A474C178178F500369F79 /* SMXMLDocument.h */,
 				FE2A474D178178F500369F79 /* SMXMLDocument.m */,
 			);
@@ -558,7 +551,8 @@
 				FE2A474A178178F500369F79 /* RKPageControl.h */,
 				FE2A474B178178F500369F79 /* RKPageControl.m */,
 			);
-			path = RKPageControl;
+			name = RKPageControl;
+			path = SMXmlDocument/RKPageControl;
 			sourceTree = "<group>";
 		};
 		FE2A474E178178F500369F79 /* UIImage Addons */ = {
@@ -573,6 +567,16 @@
 				FE2A477D17817A6800369F79 /* UIImageAddons.h */,
 			);
 			path = "UIImage Addons";
+			sourceTree = "<group>";
+		};
+		FE2A47BE1781875300369F79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE2A47BF1781875300369F79 /* MainViewController.h */,
+				FE2A47C01781875300369F79 /* MainViewController.m */,
+				FE2A47C11781875300369F79 /* MainViewController.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -631,6 +635,7 @@
 				FE2A46D41781770B00369F79 /* Default@2x.png in Resources */,
 				FE2A46D61781770B00369F79 /* Default-568h@2x.png in Resources */,
 				FE2A4765178178F500369F79 /* Localizable.strings in Resources */,
+				FE2A47C31781875300369F79 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,7 +670,6 @@
 				FE2A476A178178F500369F79 /* NSStringHex.m in Sources */,
 				FE2A476B178178F500369F79 /* ODRefreshControl.m in Sources */,
 				FE2A476C178178F500369F79 /* PortraitViewController.m in Sources */,
-				FE2A476D178178F500369F79 /* Reachability.m in Sources */,
 				FE2A476E178178F500369F79 /* RKRequestData.m in Sources */,
 				FE2A476F178178F500369F79 /* RKTextField.m in Sources */,
 				FE2A4770178178F500369F79 /* UIButton+WebCache.m in Sources */,
@@ -680,6 +684,7 @@
 				FE2A4779178178F500369F79 /* UIImage+Alpha.m in Sources */,
 				FE2A477A178178F500369F79 /* UIImage+Resize.m in Sources */,
 				FE2A477B178178F500369F79 /* UIImage+RoundedCorner.m in Sources */,
+				FE2A47C21781875300369F79 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,6 +817,7 @@
 				FE2A46E11781770B00369F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
