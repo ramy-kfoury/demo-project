@@ -38,3 +38,11 @@ in addition to: Cells, Helpers and Slices
 <p>The project contains a MainViewController, which extends PortraitViewController. A controller contains a HeaderView, a CenterView and possibly a LeftView.</p>
 <p>The Controller implements Delegate methods for basically the HeaderView, the Networking, the Request and others possibly</p>
 <p>The controller contains an array that holds request ids, which are handled in the networking and request delegate methods</p>
+
+<h2> Views </h2>
+<ul>
+<li>Header: contains 4 Buttons, Title, Left, Right and possibly a Center buttons as well. With their methods calling delegate functions. Controller should implement method LeftButtonClicked if that controller opens a left menu for example or perfom another action</li>
+<li>Left: contains a TableView, and takes an array of items to display in the table. Controller should implement its delegate method to perform actions depending on the row selected.
+<li>SectionHeader and SectionFooter: simple views that can be used to show views in sections for tables.</li>
+<li>Main: a simple view which can contain anything. The example contains a table view with variable height rows</li>
+</ul>
