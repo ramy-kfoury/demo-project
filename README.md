@@ -30,7 +30,7 @@ in addition to: Cells, Helpers and Slices
 <li>RKTextField: a custom textfield when using a custom background image, and handles insets</li>
 <li>CustomButton: reusable button view to reduce repetition of lines of code that set font, alignment and size</li>
 <li>RKPageControl: a custom page control for custom bullets</li>
-<li>PortraitViewController: a parent controller for all view controllers in a Portrait Application where also some controlleres could be Landscape such as MPMoviePlayer</li>
+<li>PortraitViewController: a parent controller for all view controllers in a Portrait Application where also some controllers could be Landscape such as MPMoviePlayer</li>
 <li>Networking: a custom networking singleton handler that handles all requests and their responses parsing and passing data among controllers. Starts requests, cancels them, creates timeouts.</li>
 </ul>
 
