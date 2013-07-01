@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
-
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
-
+- (void) displayAlertView:(NSString *)message WithTitle:(NSString *)title AndCancelTitle:(NSString *)cancelTitle OtherButtonTitle:(NSString *)otherTitle fromDelegate:(id)delegate;
+- (void) dismissAlertView;
 @end
